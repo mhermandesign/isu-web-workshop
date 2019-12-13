@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,400i,700,700i" rel="stylesheet">
+    </head>
+    <body >
+        <header id="header">
+            <div id="logo">
+                <h1 class="marvin"><b>Hello, World.</b></h1>
+            </div>
+            <div id="nav">
+                <div id="nav-btn" class="open" onclick="navToggle()"></div>
+                <div id="nav-container">
+                    <div id="nav-list">
+                        <h2 class="heading">Where To, Boss?</h2>
+                        <p><a href="#introduction">Introduction</a></p>
+                        <p><a href="#html-basics">HTML Basics</a></p>
+                        <p><a href="#css-basics">CSS Basics</a></p>
+                        <p><a href="#implementation">First Steps</a></p>
+                        
+                        <h2 class="heading">Reference</h2>
+                        <p><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Web Docs</a>Great for quick HTML & CSS reference.</p>
+                        <p><a href="https://www.w3schools.com/" target="_blank">W3Schools</a>Also a good reference for HTML & CSS.</p>
+                        <p><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>If you have questions, this is the place to go with them.</p>
+                        <p><a href="https://www.codeacademy.com/" target="_blank">Codecademy</a>Great for learning the basics of different markup/programming languages for free. Paid options exist for a deeper learning experience.</p>
+                        <p><a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a>Learn how, exactly, Flexbox works.</p>
+                        <p><a href="http://cssgridgarden.com/" target="_blank">CSS Grid Garden</a>Now do the same thing for CSS Grid.</p>
+                        
+                        <h2 class="heading">Text Editors</h2>
+                        <p><a href="http://brackets.io/" target="_blank">Brackets.io</a>My personal preference. Live preview is fantastic.</p>
+                        <p><a href="href="https://notepad-plus-plus.org/download/v7.5.8.html" target="_blank"" target="_blank">Notepad++</a>Works in a pinch but feels a bit dated.</p>
+                        <p><a href="https://www.activestate.com/komodo-ide/downloads/edit" target="_blank">Komodo Edit</a>Never used but I've read/heard good things.</p>
+                        <p><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>May be paid depending on the version you install.</p>
+                        
+                        <h2 class="heading">Misc. Resources</h2>
+                        <p><a href="https://color.adobe.com/explore/?filter=most-popular&time=month" target="_blank">Adobe Color</a>Great for finding and creating color palettes.</p>
+                        <p><a href="https://uigradients.com/#Kyoto" target="_blank">UI Gradients</a>All the gradients I come up with suck so I go here for ones that don't.</p>
+                        <p><a href="https://unsplash.com/" target="_blank">Unsplash</a>Awesome, royalty-free photos. They only ask that you provide credit to the photographer.</p>
+                        <p><a href="https://fonts.google.com/" target="_blank">Google Fonts</a>Royalty-free fonts for every scenario.</p>
+                        <p><a href="https://thenounproject.com/" target="_blank">The Noun Project</a>Icons for days. A lot of them are royalty-free.</p>
+                        <p><a href="https://loremipsum.io/" target="_blank">LoremIpsum.io</a>Lorem ipsum generator because we are all lazy.</p>
+                        <p><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>Loads of awesome snippets and tutorials for CSS.</p>
+                        <p><a href="https://www.google.com/" target="_blank">Google</a>Seriously, 50% of my time working with web design is spent Googling how to do something I've done a million times before. Anyone who claims they can develop without Googling something they should know at least once a day is a liar and you should never trust them ever again for anything.</p>
+                        
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="spacer"></div>
+        <main class="grid one-col">
+            <div class="flex center-v center-h full bg bg-fixed bg-01">
+                <h1 class="marvin txt-white banner shadow">
+                    Hello,<br>World.
+                </h1>
+            </div>
+            
+            <div class="container" class="grid">
+                <section id="introduction" class="txt-white">
+                    <h2 class="banner-small right-align marvin">
+                        Same<br>
+                        <span class="hl">Rules</span><br>
+                        New<br>
+                        <span class="hl">Tools</span>
+                    </h2>
+                </section>
+                
+                <section class="txt-white">
+                    <h2 class="heading">What Is Web Design?</h2>
+                    <hr>
+                    <p class="paragraph">
+                        <span class="hl">Web design</span> is the process of using design elements and principles to deliver a visually appealing message.
+                    </p> 
+                    <p class="paragraph">
+                        Be it a simple, single page brochure site for a local restaurant, or a feature heavy e-commerce site for an international company, the same considerations that go into print design apply to creating content for the web.
+                    </p>
+                    <p class="paragraph">
+                        When you get down to the nitty-gritty, aside from some technical differences, the same skills apply to both sides of the design coin. Just like with print, it's up to the designer to make the most of the tools available.
+                    </p>
+                </section>
+            </div>
+            
+            <div class="flex center-v center-h full bg bg-fixed bg-05">
+                <h1 class="marvin txt-white banner shadow">
+                    If You<br>
+                    Build<br>
+                    It...
+                </h1>
+            </div>
+            
+            <div class="container" class="grid">
+                <section class="txt-white">
+                    <h2 class="banner-small right-align marvin">
+                        Hyper<br>
+                        <span class="hl">Text</span><br>
+                        Markup<br>
+                        <span class="hl">Language</span>
+                    </h2>
+                </section>
+                
+                <section id="html-basics" class="txt-white">
+                    <h2 class="heading">HTML</h2>
+                    <hr>
+                    <p class="paragraph">
+                        Nearly every website you come across will be built in a standardized language called <span class="hl">HTML</span> (Hyper Text Markup Language).
+                    </p>
+                    <p class="paragraph">
+                        A website will often feature many different elements including, but not limited to...
+                    </p>
+                    
+                    <div class="c-table">
+                        <div class="ct-row">
+                            <p class="hl">Tags</p>
+                            <p>
+                                Element names surrounded by angle brackets.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Head</p>
+                            <p>
+                                The section of an HTML document that holds background information like page titles, internal links, and meta-data read by the browser.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Body</p>
+                            <p>
+                               The section of an HTML document that holds the actual content of a website. This includes things like images, paragraphs, videos. 
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Div</p>
+                            <p>An empty element free of default styles.</p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Browser</p>
+                            <p>
+                               Web browsers (Chrome, I.E., Firefox, Safari, etc.) are used to read and render HTML documents. 
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Text Editor</p>
+                            <p>
+                                Used, in part, to create and modify HTML and CSS documents. (Notepad - PC / TextEdit - Mac)
+                            </p>
+                        </div>
+                    </div>
+                    <details>
+                        <summary>Recommended Text Editors</summary>
+                        <p>
+                            <a href="http://brackets.io/" target="_blank">Brackets |</a> PC, Mac, and Linux
+                        </p>
+                        <p>
+                            <a href="https://notepad-plus-plus.org/download/v7.5.8.html" target="_blank">Notepad ++ |</a> PC Only
+                        </p>
+                        <p>
+                            <a href="https://www.activestate.com/komodo-ide/downloads/edit" target="_blank">Komodo Edit |</a> PC, Mac, and Linux
+                        </p>
+                    </details>
+                </section>
+            </div>
+            
+            <div class="flex center-v center-h full bg bg-fixed bg-10">
+                <h1 class="marvin txt-white banner shadow">
+                    Keep It<br>
+                    Classy.
+                </h1>
+            </div>
+            
+            <div class="container" class="grid">
+                <section id="css-basics" class="txt-white">
+                    <h2 class="banner-small right-align marvin">
+                        Cascading<br>
+                        <span class="hl">Cascading</span><br>
+                        Cascading<br>
+                        <span class="hl">Cascading</span><br>
+                        Cascading<br>
+                        <span class="hl">Style</span><br>
+                        Sheets
+                    </h2>
+                </section>
+                
+                <section class="txt-white">
+                    <h2 class="heading">CSS</h2>
+                    <hr>
+                    <p class="paragraph">
+                        Once a web designer finishes creating the markup for their website, they move onto creating what is called a <span class="hl">cascading stylesheet</span>. These stylesheets are a standardized language used to give HTML elements different visual properties like font, color, size, and orientation.
+                    </p>
+                    <p class="paragraph">
+                        Some of the more basic terms you will come across when working with CSS are...
+                    </p>
+                    
+                    <div class="c-table">
+                        <div class="ct-row">
+                            <p class="hl">Rule Set</p>
+                            <p>
+                                A combination of a selector and a declaration block.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Declaration Block</p>
+                            <p>
+                                A combination of a style property and its associated value.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Selector</p>
+                            <p>
+                                Used to "find" HTML elements based on their name, id, class, attribute, etc.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">ID</p>
+                            <p>
+                               A name given to an element of a page that is to be unique to that page.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">Class</p>
+                            <p>
+                                An attribute that can be given to any HTML element as a way to provide a style rule to multiple elements sharing that same attribute.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <div id="jumbotron" class="flex center-v center-h full bg bg-fixed bg-11">
+                <h1 class="marvin txt-white banner shadow">
+                    Gimme<br>
+                    <span class="hl">A Little</span><br>
+                    Space
+                </h1>
+            </div>
+            
+            <div class="container" class="grid">
+                <section id="implementation" class="txt-white">
+                    <h2 class="heading">Basic HTML Layout</h2>
+                    <hr>
+                    <p class="paragraph">
+                        A basic HTML document will usually contain the following elements:
+                    </p> 
+                    <div class="c-table">
+                        <div class="ct-row">
+                            <p class="hl">&lt;html&gt;&lt;/html&gt;</p>
+                            <p>
+                                The main container of every website.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">&lt;head&gt;&lt;/head&gt;</p>
+                            <p>
+                                The brains of the operation.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">&lt;body&gt;&lt;/body&gt;</p>
+                            <p>
+                                The real meat of the website.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">&lt;div&gt;&lt;/div&gt;</p>
+                            <p>
+                                Basically as empty and devoid of personality as a bucket of rocks. At least, until you give it meaning :)
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">&lt;h1&gt;&lt;/h1&gt;</p>
+                            <p>
+                                Headings 1 through 6.
+                            </p>
+                        </div>
+                        <div class="ct-row">
+                            <p class="hl">&lt;p&gt;&lt;/p&gt;</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="note">
+                        <b>Note:</b> Aside from a very small number of exceptions, tags must always have a closing <b>&lt;/tag&gt;</b>. This helps to ensure your page renders in the browser properly. Missing closing tags can result in any number of issues so, when in doubt, just add one.
+                    </p>
+                    <p class="paragraph">
+                        Using the tags listed in the section above, the following layout can be produced:
+                    </p>
+                    <div class="code-snippet">
+                        <p class="" style="color: gray;">&lt;!doctype html&gt; &lt;!-- This MUST BE the very first tag in your HTML document. --&gt;</p>
+                        <p class="" style="color: tomato;">&lt;html&gt;</p>
+                            <br>
+                            <p class="tab-1" style="color: cornflowerblue;">&lt;head&gt;</p>
+                                <p class="tab-2" style="color: mediumseagreen;">&lt;title&gt;My Website&lt;/title&gt;</p>
+                            <p class="tab-1" style="color: cornflowerblue;">&lt;/head&gt;</p>
+                            <br>
+                            <p class="tab-1" style="color: mediumpurple;">&lt;body&gt;</p>
+                                <p class="tab-2" style="color: goldenrod;">&lt;div id="blah"&gt;</p>
+                                
+                                    <p class="tab-3" style="color: coral;">&lt;h1&gt;Hello, World.&lt;/h1&gt;</p>
+                                    <p class="tab-3" style="color: pink;">&lt;p&gt;Lorem ipsum dolor sit.&lt;/p&gt;</p>
+                                
+                                <p class="tab-2" style="color: goldenrod;">&lt;/div&gt;</p>
+                            <p class="tab-1" style="color: mediumpurple;">&lt;/body&gt;</p>
+                            <br>
+                        <p class="" style="color: tomato;">&lt;/html&gt;</p>
+                    </div>
+                    <p class="paragraph">
+                        The above markup will produce something similar to the following:
+                    </p>
+                    <div class="example">
+                        <h1>Hello, World.</h1>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </section>
+                <section class="txt-white">
+                    <h2 class="heading">Basic CSS Implementation</h2>
+                    <hr>
+                    <p class="paragraph">
+                        Some of the more common, basic examples of CSS descriptors include:
+                    </p> 
+                    <div class="c-table">
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">color:</span> black | #000000 | rgba(0,0,0,1);
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">background-color:</span> blue | #0000FF | rgba(0,0,255,1);
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">border:</span> solid 3px blue;
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">font-size:</span> 21px | 1em | 15%;
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">width:</span> 100px | 50% | 10vw;
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">text-align:</span> center | left | right;
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">margin:</span> 20px | 1vw | 10%; <span style="color: gray;">/*A margin is the space between the <b>outside edge</b> of an element and those surrounding it.*/</span>
+                            </p>
+                        </div>
+                        <div class="ct-row-single">
+                            <p class="spantwo">
+                                <span class="hl">padding:</span> 20px | 1vw | 10%; <span style="color: gray;">/*A padding is the space between the <b>inside edge</b> of an element and those inside of the element itself.*/</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="note">
+                        <b>Note:</b> Similar to the way HTML tags must have a closing &lt;/tag&gt;, CSS declaration blocks must always end with a <b>semi-colon</b> ( ; ) to ensure that the document is parsed and rendered correctly.
+                    </p>
+                    <p class="paragraph">
+                        The simplest way to implement CSS styles is to include them directly inside an element within the HTML document.
+                    </p>
+                    <div class="code-snippet">
+                        <p class="" style="color: gray;">&lt;!doctype html&gt;</p>
+                        <p class="" style="color: tomato;">&lt;html&gt;</p>
+                            <br>
+                            <p class="tab-1" style="color: cornflowerblue;">&lt;head&gt;</p>
+                                <p class="tab-2" style="color: mediumseagreen;">&lt;title&gt;My Website&lt;/title&gt;</p>
+                            <p class="tab-1" style="color: cornflowerblue;">&lt;/head&gt;</p>
+                            <br>
+                            <p class="tab-1" style="color: mediumpurple;">&lt;body style="font-family: sans-serif; height: 200px; background-color: cornflowerblue"&gt;</p>
+                                <p class="tab-2" style="color: goldenrod;">&lt;div id="blah"&gt;</p>
+                                
+                                    <p class="tab-3" style="color: coral;">&lt;h1 style="color: white;"&gt;Hello, World.&lt;/h1&gt;</p>
+                                    <p class="tab-3" style="color: pink;">&lt;p style="font-weight: bold;"&gt;Lorem ipsum dolor sit.&lt;/p&gt;</p>
+                                
+                                <p class="tab-2" style="color: goldenrod;">&lt;/div&gt;</p>
+                            <p class="tab-1" style="color: mediumpurple;">&lt;/body&gt;</p>
+                            <br>
+                        <p class="" style="color: tomato;">&lt;/html&gt;</p>
+                    </div>
+                    <p class="paragraph">
+                        The above markup will produce something similar to the following:
+                    </p>
+                    <div class="example-final">
+                        <h1>Hello, World.</h1>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <p class="paragraph">
+                        While the previous example technically works, it's nearly unreadable. To remedy this, designers use stylesheets which look something like this:
+                    </p>
+                    <div class="code-snippet">
+                        <p class="" style="color: mediumpurple;">body {</p>
+                            <p class="tab-1" style="color: gray;"><span style="color: white;">font-family:</span> sans-serif;</p>
+                            <p class="tab-1" style="color: gray;"><span style="color: white;">background-color:</span> cornflowerblue;</p>
+                            <p class="tab-1" style="color: gray;"><span style="color: white;">height</span> 200px;</p>
+                        <p class="" style="color: mediumpurple;">}</p>
+                        <br>
+                        <p class="" style="color: coral;">h1 {</p>
+                            <p class="tab-1" style="color: gray;"><span style="color: white;">color:</span> white;</p>
+                        <p class="" style="color: coral;">}</p>
+                        <br>
+                        <p class="" style="color: pink;">p {</p>
+                            <p class="tab-1" style="color: gray;"><span style="color: white;">font-weight:</span> bold;</p>
+                        <p class="" style="color: pink;">}</p>                        
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="flex center-v center-h">
+            <p>Copyright &copy; 2018 Matthew Herman</p>
+        </footer>
+    
+    </body>
+    <script src="js/main.js"></script>
+</html>
